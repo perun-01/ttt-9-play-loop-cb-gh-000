@@ -37,7 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  while position_taken?(board, location) == true
+  counter = 0
+  while counter <=8
     turn(board)
+    counter += 1
   end
 end
