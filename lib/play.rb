@@ -37,5 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  
+  while board[location] != " " && board[location] != ""
+    turn(board)
+  end
 end
